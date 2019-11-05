@@ -1,0 +1,27 @@
+.Switch {
+  width: 8em;
+  height: 4em;
+  padding: 1em;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  appearance: none;
+  background: #d3d3d3;
+  border-radius: 4em;
+}
+
+.Switch::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: white;
+}
+
+.Switch::-moz-range-thumb {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  cursor: pointer;
+}
